@@ -8,6 +8,23 @@ html {
   @apply bg-white dark:bg-slate-900  text-gray-800 dark:text-white;
 }
 
+/* My Journal */
 .container {
   max-width: 800px;
+}
+
+.entry-form {
+  @apply p-5 rounded-md mt-10 bg-gray-200 dark:bg-slate-800;
+}
+
+.entry-form textarea {
+  @apply w-full p-5 rounded-md mb-5 dark:bg-slate-900 h-40 resize-none;
+}
+
+.entry-form-footer {
+  @apply flex justify-between;
+}
+
+button {
+  @apply px-5 py-2 bg-teal-700 rounded text-white flex;
 }
